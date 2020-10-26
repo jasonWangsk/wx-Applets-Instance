@@ -1,0 +1,22 @@
+/* pages/show1/show1.wxss */
+.mainLeft{width: 960rpx; float: left; border: 1rpx solid #ccc;background: #fff;
+padding: 10rpx;}
+.mainLeftHeader{border-bottom: 1px solid #f0f0f0;
+  padding: 40px 24px 20px;
+  position: relative;}
+
+.mainLeftHeader text{font-size: 24rpx;color: #333;font-weight: normal;
+margin-bottom: 10rpx; display: block;}
+
+.mainLeftHeader .info{font-size: 12rpx;color: #b8b8b8;}
+
+.mainLeftHeader .des{margin-top: 20px;
+  font-size: 14px;
+  color: #999;
+  text-align: justify;
+  line-height: 1.5em;}
+
+.pic{padding-top: 20px;}
+.pic image{width: 180px;}
+.mainLeftHeader image{padding-top: 20px;width: 180rpx;}
+.blank{display: flex; width: 100%;}

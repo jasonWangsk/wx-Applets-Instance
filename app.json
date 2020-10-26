@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/works/works",
+    "pages/dynamic/dynamic",
+    "pages/ps/ps",
+    "pages/show1/show1"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarTitleText": "小程序实例",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "list":[
+      {
+      "pagePath":"pages/index/index",
+      "text":"首页",
+      "iconPath": "images/icon/home-h.png",
+      "selectedIconPath": "images/icon/homes.png"
+    },
+      {"pagePath":"pages/works/works",
+        "text":"作品",
+        "iconPath": "images/icon/zuopin.png",
+        "selectedIconPath": "images/icon/zuopin-h.png"
+      },
+      {"pagePath":"pages/dynamic/dynamic",
+        "text":"动态",
+        "iconPath": "images/icon/dongtai.png",
+        "selectedIconPath": "images/icon/dongtai-h.png"}
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

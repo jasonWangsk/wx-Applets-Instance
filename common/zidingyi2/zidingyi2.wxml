@@ -1,0 +1,8 @@
+<!-- 底部样式 
+mode="widthFix"  根据宽度自动调整高度-->
+<view>
+  <view class="footer">
+    <image class="pic" mode="widthFix" src="/images/logo/font-awesome-logo-full.png"></image>
+    <view class="txt">- 高端品牌 -</view>
+  </view>
+</view>

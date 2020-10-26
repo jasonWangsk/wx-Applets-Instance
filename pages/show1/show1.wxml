@@ -1,0 +1,23 @@
+<view class="mainLeft">
+  <view class="mainLeftHeader">
+    <text>窑烤帕斯科 - 日本面包屋</text>
+    <view class="info">
+      <text>收录时间：2018-01-17 13:08:38    所属分类：</text>
+    </view>
+    <view class="des" > 
+      <text >这家面包店铺采用的黑白格图形组合很漂亮，将黑白格的样式在页面中的很多位置都有体现，版式上很轻松简介大气。</text>
+    </view>
+</view>
+
+  <view class="pic" style="padding-top:20rpx">
+      <image src="/images/show/0002.jpg"></image>
+  </view>
+
+  <view class="blank">
+    <image mode="widthFix" src="/images/show/1516168587.jpg"></image>
+  </view>
+</view>
+
+
+
+

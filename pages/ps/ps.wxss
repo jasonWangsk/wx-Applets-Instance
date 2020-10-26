@@ -1,0 +1,20 @@
+/* 顶栏 logo 样式 */
+.header{width: 750rpx; height: 90rpx; border: 1px solid rgb(224, 228, 217);} 
+.bianju2{display: flex; justify-content: space-between; align-items: center; height: 100%;}
+.bianju2 navigator, .bianju2 .kefu{height: 50rpx;}
+.bianju2 image{height: 100%;}
+
+.kefu{position: relative; animation: donghua linear 1s infinite alternate ;}
+.kefu .btu{position: absolute; width: 100%; height: 100%;top: 0; left: 0; opacity: 0; }
+/* .kefu.pic{animation: donghua linear 1s infinite alternate ;} */
+
+
+/* 内容样式 */
+.banner{width: 100%;}
+.banner image{width: 750rpx;}
+
+
+/* 底部样式 */
+.footer{padding: 30rpx 0; background: #f2f2f2; text-align: center;}
+.footer .pic{width: 180rpx;}
+.footer .txt{font-size: 25rpx; color: #666666;}

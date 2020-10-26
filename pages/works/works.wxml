@@ -1,0 +1,9 @@
+<!--pages/works/works.wxml-->
+<!-- 公共组件-logo -->
+<logo></logo>
+
+
+<view> 这是作品页面</view>
+
+<!-- 公共组件-底栏 -->
+<dibu></dibu>

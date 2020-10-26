@@ -1,0 +1,15 @@
+<!-- 自定义组件公共顶栏logo -->
+<view class="zidingyi"> 
+  <view class="header">
+  <view class="bianju bianju2">
+    <navigator open-type="reLaunch" class="logo"  url="/pages/index/index" >
+      <image mode="heightFix" src="/images/logo/font-awesome-logo-full.png"></image>
+    </navigator>
+
+    <view class="kefu">
+      <button class="btu" open-type="contact"></button>
+      <image class="pic" mode="heightFix" src="/images/logo/kefu.jpg"></image>
+    </view>
+  </view>
+  </view>
+</view>

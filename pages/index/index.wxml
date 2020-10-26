@@ -1,0 +1,104 @@
+<!-- 顶栏 logo 调用公共组件 -->
+<logo></logo>
+
+<!-- banner 4秒轮播 -->
+<view class="banner">
+  <swiper indicator-dots circular autoplay interval="4000">
+    <swiper-item><image src="/images/banner/22.jpeg"/></swiper-item>
+    <swiper-item><image src="/images/banner/39e8dd3508adbd1248660dd8415c00db-min.jpg"/></swiper-item>
+    <swiper-item><image src="/images/banner/11.jpeg"/></swiper-item>
+    <swiper-item><image src="/images/banner/fbf86435e9cc1d276efe7f034fd17404-min.jpg"/></swiper-item>
+  </swiper>
+</view>
+
+<!-- 6个主 功能 icon 链接 -->
+<scroll-view class="major" scroll-x>
+ <view class="majorCon">
+
+  <navigator class="box" url="/pages/ps/ps">
+    <image class="pic" src="/images/icon/Twitter.png"></image>
+    <view class="txt">Twitter</view>
+  </navigator>
+
+  <navigator class="box" url="http://beagle.lamost.org/blog/post-86.html">
+    <image class="pic" src="/images/icon/Slack.png"></image>
+    <view class="txt">呵呵</view>
+  </navigator>
+
+  <navigator class="box" url="">
+    <image class="pic" src="/images/icon/博客.png"/>
+    <view class="txt">博客</view>
+  </navigator>
+
+  <navigator class="box" url="">
+    <image class="pic" src="/images/icon/谷歌浏览器.png"></image>
+    <view class="txt">Google</view>
+  </navigator>
+
+  <navigator class="box" url="">
+    <image class="pic" src="/images/icon/脸谱网.png"></image>
+    <view class="txt">Facebook</view>
+  </navigator>
+
+  <navigator class="box" url="">
+    <image class="pic" src="/images/icon/Youtube -91rpx.png"></image>
+    <view class="txt">Youtube</view>
+  </navigator>
+
+ </view>
+</scroll-view>
+
+<!-- 首页 内容 -->
+<view class="works">
+  <view class="container"> 
+    <view class="pubTitle">
+      <view class="txt">作品列表</view>
+      <navigator open-type="reLaunch" url="/pages/works/works" class="more">更多></navigator>
+    </view>
+
+  <!-- 作品列表 布局 -->
+  <view class="wkMain">
+    <navigator class="box" wx:for="{{datalist}}" wx:key="index" url="/pages/show1/show1">
+      <image class="pic" src="{{item.pic}}"></image>
+      <view class="ceng">
+        <view class="tit">{{item.tit}}</view>
+        <view class="des">{{item.des}}</view>
+      </view>
+    </navigator>
+  </view>
+
+  </view>
+  
+</view>
+
+<!-- 行业动态列表 -->
+<view class="hangye">
+  <view class="container">
+    <view class="pubTitle">
+      <view class="txt">行业动态</view>
+      <navigator open-type="reLaunch" url="/pages/dynamic/dynamic" class="more">更多></navigator>
+    </view>
+
+    <view class="dyMain">
+
+      <navigator class="dyItem" wx:for="{{datalist2}}" wx:key="index">
+        <view class="pic">
+          <image src="{{item.picurl}}"></image>
+        </view>
+        <view class="text">
+          <view class="title">
+            {{item.title}}
+          </view>
+          <view class="info">
+            <text>作者：</text>{{item.author}}<text space="ensp">  -  </text>
+            <text>时间：</text>{{item.posttime}}
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<!-- 底部样式  调用公共组件
+mode="widthFix"  根据宽度自动调整高度-->
+<dibu></dibu>

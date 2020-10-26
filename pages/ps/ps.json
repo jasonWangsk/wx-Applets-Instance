@@ -1,0 +1,7 @@
+{
+  "usingComponents": { 
+    "zdy":"/common/zidingyi/zidingyi",
+    "zdy2":"/common/zidingyi2/zidingyi2"
+  },
+  "navigationBarTitleText":"Twitter"
+}

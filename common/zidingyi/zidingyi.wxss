@@ -1,0 +1,11 @@
+/* common/zidingyi/zidingyi.wxss */
+/* .zidingyi{background: red;} */
+/* 顶栏 logo 样式 */
+.header{width: 750rpx; height: 90rpx; border: 1px solid rgb(224, 228, 217);} 
+.bianju2{display: flex; justify-content: space-between; align-items: center; height: 100%;}
+.bianju2 navigator, .bianju2 .kefu{height: 50rpx;}
+.bianju2 image{height: 100%;}
+
+.kefu{position: relative; animation: donghua linear 1s infinite alternate ;}
+.kefu .btu{position: absolute; width: 100%; height: 100%;top: 0; left: 0; opacity: 0; }
+/* .kefu.pic{animation: donghua linear 1s infinite alternate ;} */

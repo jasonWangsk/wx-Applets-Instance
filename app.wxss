@@ -1,0 +1,6 @@
+.bianju{padding: 0 26rpx; box-sizing: border-box;}
+/* .works{padding: 0 26rpx; box-sizing: border-box;} */
+@keyframes donghua{
+  0%,50%,100%{opacity: 1;}
+  25%{opacity: 0;}
+}

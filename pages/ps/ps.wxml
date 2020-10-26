@@ -1,0 +1,26 @@
+<!-- 顶栏 logo
+<view class="header">
+<view class="bianju bianju2">
+  <navigator open-type="switchTap" class="logo"  url="/pages/index/index" >
+    <image mode="heightFix" src="/images/logo/font-awesome-logo-full.png"></image>
+  </navigator>
+
+  <view class="kefu">
+    <button class="btu" open-type="contact"></button>
+    <image class="pic" mode="heightFix" src="/images/logo/kefu.jpg"></image>
+  </view>
+</view>
+</view> -->
+<!-- 顶栏 logo 使用自定义组件  -->
+<zdy></zdy>
+<!-- 页面内容 布局 -->
+<text decode>&nbsp;</text>
+<view class="banner" wx:for="{{data_con}}" wx:key="index">
+  <image mode="widthFix" src="{{item.pic}}">
+  </image>
+</view>
+
+<text decode>&nbsp;</text>
+
+<!-- 调用zidongyi组件2 -- 底部样式 -->
+<zdy2></zdy2>
