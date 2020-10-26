@@ -5,12 +5,12 @@ Page({
    */
   data: {
     datalist:[
-      {pic:"/images/cont-p/a.jpg", tit:"",des:""},
-      {pic:"/images/cont-p/b.jpg", tit:"",des:""},
-      {pic:"/images/cont-p/c.jpg", tit:"",des:""},
-      {pic:"/images/cont-p/d.jpg", tit:"",des:""},
-      {pic:"/images/cont-p/e.jpeg", tit:"",des:""},
-      {pic:"/images/cont-p/f.jpg", tit:"UI设计作品",des:"UI DESIGN WORKS"}
+      {pic:"/images/cont-p/a.jpg", tit:"",des:"",url:"/pages/show1/show1"},
+      {pic:"/images/cont-p/b.jpg", tit:"",des:"",url:""},
+      {pic:"/images/cont-p/c.jpg", tit:"",des:"",url:""},
+      {pic:"/images/cont-p/d.jpg", tit:"",des:"",url:""},
+      {pic:"/images/cont-p/e.jpeg", tit:"",des:"",url:""},
+      {pic:"/images/cont-p/f.jpg", tit:"UI设计作品",des:"UI DESIGN WORKS",url:""}
     ],
     datalist2:[
     {pic:"/images/cont-p/11.jpg",biaoti:"大自然对呼吸",zuozhe:"老王",shijian:""},

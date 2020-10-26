@@ -58,7 +58,7 @@
 
   <!-- 作品列表 布局 -->
   <view class="wkMain">
-    <navigator class="box" wx:for="{{datalist}}" wx:key="index" url="/pages/show1/show1">
+    <navigator class="box" wx:for="{{datalist}}" wx:key="index" url="{{item.url}}">
       <image class="pic" src="{{item.pic}}"></image>
       <view class="ceng">
         <view class="tit">{{item.tit}}</view>

@@ -3,7 +3,9 @@
 <logo></logo>
 
 
-<view> 这是作品页面</view>
+<view class="box"> 
+  <view class="txt">这是作品页面</view>
+</view>
 
 <!-- 公共组件-底栏 -->
 <dibu></dibu>

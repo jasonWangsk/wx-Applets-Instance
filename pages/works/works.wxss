@@ -1,1 +1,3 @@
 /* pages/works/works.wxss */
+.box{display: flex;height: 200rpx; background:#ccc;align-items:center;}
+.box .txt{font-size: 20rpx;}
